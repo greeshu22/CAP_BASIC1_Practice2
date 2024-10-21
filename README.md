@@ -6,3 +6,5 @@ cf create-service-key MyHANAApp-auth default
 
  we are adding a binding to the security XSUAA service as well.
 cds bind -2 MyHANAApp-auth:default
+
+Name your role collection MyHANAApp. 
